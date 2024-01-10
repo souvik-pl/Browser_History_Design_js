@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app_component">
+        <section>
+            <header class="page_controller_container">
+                <!--Page Controller Component-->
+                <div id="page_controller_component">
+                    <button class="btn" id="back_btn">
+                        <img src="./assets/back-button.svg" alt="Go back" />
+                    </button>
+                    <button class="btn" id="forward_btn">
+                        <img src="./assets/forward-button.svg" alt="Go forward" />
+                    </button>
+                    <button class="btn" id="home_btn">
+                        <img src="./assets/home-button.svg" alt="Home page" />
+                    </button>
+                    <input type="text" placeholder="Type a URL" id="search_input" />
+                    <button class="btn go_btn" id="go_btn">
+                        Go
+                    </button>
+                </div>
+            </header>
+            <main class="page_container">
+                <!--Page Component-->
+                <div id="page_component">
+                    <code>
+                        Hello from <span id="page_content"></span>
+                    </code>
+                </div>
+            </main>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
