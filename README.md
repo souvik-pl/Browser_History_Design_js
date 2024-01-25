@@ -1,4 +1,5 @@
 # Browser History Design
+This repository accompanies the article on [Exploring Browser History Functionality](https://javascript.plainenglish.io/exploring-browser-history-functionality-0488f688e9d2).
 This simple web application demonstrates browser history functionality using vanilla HTML, CSS, and JavaScript. The app includes components like an address bar, home button, backward and forward buttons, and a display area for content corresponding to a URL.
 
 ## Preview
